@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     for (i = 0; i < movie_array.length; i++) {
 
-        let movie = `<div id="${i}" class = "movie">
+        let movie = `<div class = "movie">
         <img src="${movie_array[i].image}">
             
             <div class="info">
@@ -17,7 +17,7 @@ $(document).ready(function () {
              <p>${movie_array[i].description}</p>
              </div>
 
-             <div class = "button">
+             <div id="${i} "class = "button">
              <button>Like &#128077;</button>
              <div class="likes">  </div>
              </div>
@@ -30,10 +30,10 @@ $(document).ready(function () {
 
     var likes = 0;
         $(".button").on("click", function(){
-        likes += 1;
+            likes += 1;
            //let selector = $("#" + this.id).find(".likes");
-        $(".likes").text(likes);
-    //      selector.text(likes);
+       $(".likes").text(likes);
+       //selector.text(likes);
  
         })
 

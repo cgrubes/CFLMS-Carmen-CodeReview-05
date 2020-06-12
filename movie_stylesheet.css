@@ -72,6 +72,20 @@ img{
 
 .button{
     margin-top: 11em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.likes{
+    padding-left: 1em;
+}
+
+button{
+    background-color: black;
+    color: rgb(235, 112, 163);
+    border: none;
+    font-size: 12pt;
 }
 
 
