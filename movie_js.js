@@ -28,14 +28,19 @@ $(document).ready(function () {
         $(".wrapper").append(movie);
     }
 
-    var likes = 0;
+    
+     var likes = 0;
         $(".button").on("click", function(){
             likes += 1;
-           //let selector = $("#" + this.id).find(".likes");
+          // let selector = $("#" + this.id).find(".likes");
        $(".likes").text(likes);
        //selector.text(likes);
  
-        })
+        }) 
+
+
+    
+    
 
 
 })
