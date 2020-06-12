@@ -1,0 +1,32 @@
+ movies = `[
+    {
+        "name": "The Shape of Water",
+        "description": "Set in Baltimore, Maryland, in 1962, the story follows a mute cleaner at a high-security government laboratory who falls in love with a captured humanoid amphibian creature.",
+        "image": "img/shape_of_water.png"
+    },
+    {
+        "name": "Gone Girl",
+        "description": "Set in Missouri, the story begins as a mystery that follows the events surrounding Nick Dunne (Affleck), who becomes the prime suspect in the sudden disappearance of his wife Amy (Pike).",
+        "image": "img/gone.jpg"
+    },
+    {
+        "name": "13th",
+        "description": "13th is a 2016 American documentary by director Ava DuVernay. The film explores the intersection of race, justice, and mass incarceration in the United States",
+        "image": "img/13th.png"
+    },
+    {
+        "name": "Parasite",
+        "description": "Parasite ollows the members of a poor family who scheme to become employed by a wealthy family by infiltrating their household and posing as unrelated, highly qualified individuals",
+        "image": "img/parasite.png"
+    },
+    {
+        "name": "1917",
+        "description": "1917 tells the story of two young British soldiers during the First World War who are ordered to deliver a message calling off an attack doomed to fail soon after the German retreat to the Hindenburg Line.",
+        "image": "img/1917.jpg"
+    },
+    {
+        "name": "Life of Pi",
+        "description": "The storyline revolves around a Tamil man named Pi Patel, telling a novelist about his life story, and how at 16 he survives a shipwreck and is adrift in the Pacific Ocean on a lifeboat with a Bengal tiger.",
+        "image": "img/pi.jpg"
+    }
+]`;  
