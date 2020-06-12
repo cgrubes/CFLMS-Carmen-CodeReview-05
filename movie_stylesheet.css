@@ -9,6 +9,8 @@
     background-color: black;
     color: white;
     font-size: 24pt;
+    padding-bottom: .5em;
+    padding-top: .5em;
 }
 
 .navbar{
@@ -61,6 +63,7 @@ h2{
 
 img{
     width: 15em;
+    height: 22em;
 }
 
 .info{
@@ -69,6 +72,6 @@ img{
 
 .button{
     margin-top: 11em;
-
 }
+
 

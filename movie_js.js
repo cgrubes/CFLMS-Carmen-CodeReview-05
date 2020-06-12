@@ -31,7 +31,9 @@ $(document).ready(function () {
     var likes = 0;
         $(".button").on("click", function(){
         likes += 1;
-            $(".likes").text(likes);
+           //let selector = $("#" + this.id).find(".likes");
+        $(".likes").text(likes);
+    //      selector.text(likes);
  
         })
 
